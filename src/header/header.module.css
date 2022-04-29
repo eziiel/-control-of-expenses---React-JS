@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  padding: 7rem;
+  background: #5b5bf8;
+  top: 0;
+  text-align: center;
+}
+.titulo {
+  margin: -3rem;
+  color: #fff;
+}

@@ -1,11 +1,13 @@
 import './App.css'
+import { Controle } from './controle/controle'
 import { Header } from './header/header'
 
 function App() {
   
   return (
-    <div>
+    <div className="body">
       <Header />
+      <Controle />
     </div>
   )
 }

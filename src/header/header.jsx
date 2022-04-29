@@ -1,10 +1,13 @@
 
+import style from "./header.module.css"
 const Header = () =>{
 
 
 
   return (
-      <h1>Controle de despesas</h1>
+    <header className={style.header}>
+      <h1 className={style.titulo}>Controle de despesas</h1>
+    </header>
   )
 }
 

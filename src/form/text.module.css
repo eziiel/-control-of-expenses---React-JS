@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.label {
+  font-size: 500;
+  padding: .8rem 0;
+}
+.input {
+  border: 1px solid #eee;
+  background: #eee;
+  display: block;
+  width: 100%;
+  font-size: .875rem;
+  padding: .3rem;
+  border-radius: 4px;
+}
+.input:hover,
+.input:focus {
+  border-radius: 4px;
+  outline: none;
+  border-color: #6464fc;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #6464fc;
+}

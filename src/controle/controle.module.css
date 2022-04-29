@@ -1,0 +1,107 @@
+.controle {
+  max-width: 1000px;
+  top: -5rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding: 0rem;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.item {
+  background-color: #fff;
+  border-radius: 4px;
+}
+.dados{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: space-between;
+  align-items: end;
+  gap: 1.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.descricao,.dados {
+  grid-column: 1 /-1;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+}
+.itemInfo {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  padding: 2rem ;
+  gap: 2rem;
+}
+.valueAdd {
+  grid-column: 1/-1;
+  color: #000;
+}
+.value {
+  display: flex;
+  justify-content: center;
+}
+.cifra{
+  font-size: .875rem;
+  margin-right: .25rem;
+}
+.valueNumber{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.icon {
+  justify-self: end;
+}
+.button {
+  padding: .5rem .8rem;
+  background:#eee;
+  border: 1px solid #6464fc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  outline: none;
+  box-shadow: 0 0 2px #3434a1,0 0 3px #6464fc;
+  color: #3434a1;
+}
+.descricaoTitulo {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(184, 184, 184);
+  justify-items: start;
+}
+.listaDescricao {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: space-between;
+  text-align: left;
+  padding: .5rem;
+}
+.listaDescricao ul{
+  display: grid;
+  align-items: center;
+}
+.liFinal {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: .3rem;
+}
+
+.removeItem {
+  cursor: pointer;
+  padding: 0 1rem;
+}
